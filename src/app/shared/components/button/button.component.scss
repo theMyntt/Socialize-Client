@@ -1,0 +1,24 @@
+.btn {
+  height: 35px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border: 0;
+  border-radius: 7px;
+  gap: 10px;
+  box-shadow: 0 2px 4px 0 rgba($color: #000000, $alpha: 0.2);
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 0 4px 8px 0 rgba($color: #000000, $alpha: 0.4);
+  }
+  cursor: pointer;
+  border: 2px solid #00f;
+  &.btn-white {
+    background-color: #fff;
+    color: #00f;
+  }
+  &.btn-blue {
+    background-color: #00f;
+    color: #fff;
+  }
+}
