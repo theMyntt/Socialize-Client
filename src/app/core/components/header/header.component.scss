@@ -5,10 +5,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  h1 {
-    font-size: 24px;
-    color: #00f;
-    letter-spacing: 1px;
-    font-weight: 300;
+  a {
+    text-decoration: none;
+    h1 {
+      font-size: 24px;
+      color: #00f;
+      letter-spacing: 1px;
+      font-weight: 300;
+    }
   }
 }
