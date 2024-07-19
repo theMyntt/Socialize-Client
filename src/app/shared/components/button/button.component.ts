@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 type TVariant = 'blue' | 'white';
+type TType = 'button' | 'submit';
 
 @Component({
   selector: 'custom-button',
@@ -10,4 +11,7 @@ type TVariant = 'blue' | 'white';
 export class ButtonComponent {
   @Input()
   variant: TVariant = 'white';
+
+  @Input()
+  type: TType = 'button';
 }
