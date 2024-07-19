@@ -1,0 +1,10 @@
+<label [htmlFor]="id()">{{ label }}</label>
+<div class="custom-input {{ variant }}">
+  <input
+    [id]="id()"
+    [type]="type"
+    class="input {{ variant }}"
+    [placeholder]="placeholder"
+  />
+  <ng-content></ng-content>
+</div>
