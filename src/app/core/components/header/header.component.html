@@ -1,0 +1,10 @@
+<div class="top-header">
+  <h1>Socialize</h1>
+  <custom-button (click)="invertMenu()">
+    <lucide-icon name="menu" size="16" style="display: flex" />
+    <p>Menu</p>
+  </custom-button>
+</div>
+@if (this.showMenu()) {
+<header-menu></header-menu>
+}

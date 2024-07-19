@@ -1,0 +1,24 @@
+.menu {
+  border: 2px solid #00f;
+  border-radius: 7px;
+  padding: 20px;
+  position: absolute;
+  top: 87px;
+  right: 20px;
+  width: 200px;
+  box-shadow: 0 2px 4px 0 rgba($color: #000000, $alpha: 0.2);
+  animation: opening 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  @keyframes opening {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
